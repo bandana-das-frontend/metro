@@ -177,10 +177,6 @@
     flex-direction: column;
 
 }
-.icon h6 {
-    height: 39px;
-    overflow: hidden;
-}
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
     margin: 7px 7px;
@@ -204,7 +200,7 @@
 
 @media (max-width: 768px) {
     .header-carousel .owl-nav {
-        left: 25px;
+        right: 25px;
     }
 }
 
