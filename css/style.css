@@ -199,9 +199,41 @@
 }
 
 @media (max-width: 768px) {
-    .header-carousel .owl-nav {
-        right: 25px;
-    }
+    .header-carousel .owl-dots {
+    position: absolute;
+    bottom: -32px;
+    right: 45%;
+    transform: translateY(-50%);
+    display: -webkit-inline-box;
+    flex-direction: column;
+    left: 45%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.header-carousel .owl-dot,
+.header-carousel .owl-dot  {
+    margin: 5px;
+    width: 15px;
+    height: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #8f9397;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: .5s;
+    font-weight: 600;
+}
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    display: none;
+}
+.header-carousel .owl-dot.active,
+.header-carousel .owl-dot.active {
+  background-color: #000;
+}
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
