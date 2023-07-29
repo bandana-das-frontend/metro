@@ -170,26 +170,31 @@
 
 .header-carousel .owl-nav {
     position: absolute;
-    top: 50%;
-    left: -25px;
+    bottom: 0;
+    right: 0;
     transform: translateY(-50%);
-    display: flex;
+    display: -webkit-inline-box;
     flex-direction: column;
-}
 
+}
+.icon h6 {
+    height: 39px;
+    overflow: hidden;
+}
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
-    margin: 7px 0;
-    width: 50px;
-    height: 50px;
+    margin: 7px 7px;
+    width: 31px;
+    height: 31px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
-    border-radius: 40px;
-    font-size: 20px;
+    background: #0E2E50;
+    border-radius: 5px;
+    font-size: 14px;
     transition: .5s;
+    font-weight: 600;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
