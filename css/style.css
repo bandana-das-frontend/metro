@@ -202,13 +202,10 @@
     .header-carousel .owl-dots {
     position: absolute;
     bottom: -32px;
-    right: 45%;
+    right: 0;
     transform: translateY(-50%);
     display: -webkit-inline-box;
     flex-direction: column;
-    left: 45%;
-    text-align: center;
-    margin: 0 auto;
 
 }
 .header-carousel .owl-dot,
